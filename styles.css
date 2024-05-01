@@ -45,3 +45,16 @@
     width: 200px;
     height: 400px;
 }
+/* challenge-5 */
+.yellow-red p {
+    font-size: 20px;
+    background-color: yellow;
+    color: red;
+    text-align: center;
+}
+.no-style p {
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    text-align: left;
+}
