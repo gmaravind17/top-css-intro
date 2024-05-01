@@ -36,3 +36,12 @@
 .no-click-me-btn {
     background-color: yellow;
 }
+/* challeng-4 */
+.picture.proportioned {
+    width: 300px;
+    height: auto;
+}
+.picture.distorted {
+    width: 200px;
+    height: 400px;
+}
