@@ -5,6 +5,7 @@
     font-weight: bold;
     color: white;
 }
+/* challenge 2 */
 .odd-number {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: lightpink;
@@ -21,4 +22,17 @@
 }
 .adjust-font-size {
     font-size: 24px;
+}
+/* challenge 3 */
+.click-me-btn, .no-click-me-btn {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+.click-me-btn {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.no-click-me-btn {
+    background-color: yellow;
 }
