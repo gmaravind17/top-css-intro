@@ -6,71 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Testing</title>
     <link rel="stylesheet" href="./styles.css">
-    <style>
+    <!-- <style>
         p {
             background-color: green;
             color: white;
             font-size: 18px;
         }
-    </style>
+    </style> -->
 </head>
 
 <body>
-    <div class="try-ext-css">Style me with external CSS method</div>
-    <p>CSS with internal method</p>
-    <button style="background-color: orange; font-size: 18px;">Inline CSS</button>
-    <hr>
-    <!-- 02 class-id-selectors -->
-    <p class="odd-number">
-        Number 1- Im a class!
-    </p>
-    <div id="number-2">
-        Number 2- Im the One ID.
-    </div>
-    <p class="odd-number adjust-font-size">
-        Number 3- Im a class! but cooler.
-    </p>
-    <div id="number-4">
-        Number 4- Im another ID.
-    </div>
-    <p class="odd-number">
-        Number 5- Im a class!
-    </p>
-    <hr>
-    <!-- grouping selectors -->
-    <button class="click-me-btn">Click me!</button>
-    <button class="no-click-me-btn">No, Click me!!</button>
-    <hr>
-    <!-- chaining selectors -->
-    <div>
-        <img class="picture proportioned" src="./images/pexels-katho-mutodo-8434791.jpg" alt="Woman with glasses">
-        <img class="picture distorted" src="./images/pexels-andrea-piacquadio-3777931.jpg" alt="A shocked man">
-    </div>
-    <div>
-        <img src="./images/pexels-katho-mutodo-8434791.jpg" alt="Woman with glasses">
-        <img src="./images/pexels-andrea-piacquadio-3777931.jpg" alt="A shocked man">
-    </div>
-    <!-- descendant combinator -->
-    <div class="yellow-red">
-        <p>This should be styled</p>
-        <div class="no-style">
-            <p>This should be unstyled</p>
-            <p>This should be unstyled</p>
+    <div class="body-container">
+        <div class="try-ext-css">Style me with external CSS method</div>
+        <p>CSS with internal method</p>
+        <button style="background-color: orange; font-size: 18px;">Inline CSS</button>
+        <hr>
+        <!-- 02 class-id-selectors -->
+        <p class="odd-number">
+            Number 1- Im a class!
+        </p>
+        <div id="number-2">
+            Number 2- Im the One ID.
         </div>
-        <p>This should be styled</p>
-        <p>This should be styled</p>
-    </div>
+        <p class="odd-number adjust-font-size">
+            Number 3- Im a class! but cooler.
+        </p>
+        <div id="number-4">
+            Number 4- Im another ID.
+        </div>
+        <p class="odd-number">
+            Number 5- Im a class!
+        </p>
+        <hr>
+        <!-- grouping selectors -->
+        <button class="click-me-btn">Click me!</button>
+        <button class="no-click-me-btn">No, Click me!!</button>
+        <hr>
+        <!-- chaining selectors -->
+        <div>
+            <img class="picture proportioned" src="./images/pexels-katho-mutodo-8434791.jpg" alt="Woman with glasses">
+            <img class="picture distorted" src="./images/pexels-andrea-piacquadio-3777931.jpg" alt="A shocked man">
+        </div>
+        <div>
+            <img src="./images/pexels-katho-mutodo-8434791.jpg" alt="Woman with glasses">
+            <img src="./images/pexels-andrea-piacquadio-3777931.jpg" alt="A shocked man">
+        </div>
+        <!-- descendant combinator -->
+        <div class="yellow-red">
+            <p>This should be styled</p>
+            <div class="no-style">
+                <p>This should be unstyled</p>
+                <p>This should be unstyled</p>
+            </div>
+            <p>This should be styled</p>
+            <p>This should be styled</p>
+        </div>
 
-    <h1>Margin and padding practices</h1>
-    <div class="container-margin-padding-challenge">
-        <div class="one">
-            DIV ONE
+        <h1>Margin and padding practices</h1>
+        <div class="container-margin-padding-challenge">
+            <div class="one">
+                DIV ONE
+            </div>
+            <div class="two">
+                DIV TWO
+            </div>
+            <div class="three">
+                DIV THREE
+            </div>
         </div>
-        <div class="two">
-            DIV TWO
-        </div>
-        <div class="three">
-            DIV THREE
+
+        <!-- Margin and Padding #2 -->
+        <div class="card">
+            <div class="card-head">
+                <h2>I'm a card</h2>
+            </div>
+            <div class="card-desc">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptate quis placeat, consequatur
+                    sint
+                    voluptatibus, eius nobis incidunt nihil cupiditate similique corrupti quae voluptates perspiciatis
+                    sit,
+                    dolorem quaerat cum reprehenderit.
+                </p>
+            </div>
+            <div class="card-btn">
+                <span>and a</span>
+                <br>
+                <button>Big button</button>
+            </div>
         </div>
     </div>
 </body>
