@@ -1,7 +1,7 @@
-.body-container{
+* {
     background-color: lightgray;
-    /* display: inline-block; */
 }
+
 .try-ext-css {
     background-color: red;
     font-size: 32px;
@@ -9,46 +9,57 @@
     font-weight: bold;
     color: white;
 }
+
 /* challenge 2 */
 .odd-number {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: lightpink;
     color: black;
 }
+
 #number-2 {
     color: blue;
     font-size: 36px;
 }
+
 #number-4 {
     background-color: lightgreen;
     font-size: 24px;
     font-weight: bold;
 }
+
 .adjust-font-size {
     font-size: 24px;
 }
+
 /* challenge 3 */
-.click-me-btn, .no-click-me-btn {
+.click-me-btn,
+.no-click-me-btn {
     font-size: 28px;
     font-family: Helvetica, 'Times New Roman', sans-serif;
 }
+
 .click-me-btn {
     background-color: black;
     color: white;
     font-weight: bold;
 }
+
 .no-click-me-btn {
     background-color: yellow;
 }
+
 /* challeng-4 */
 .picture.proportioned {
     width: 300px;
     height: auto;
 }
+
 .picture.distorted {
     width: 200px;
     height: 400px;
 }
+
 /* challenge-5 */
 .yellow-red p {
     font-size: 20px;
@@ -56,6 +67,7 @@
     color: red;
     text-align: center;
 }
+
 .no-style p {
     font-size: 16px;
     background-color: white;
@@ -67,24 +79,24 @@
 .container-margin-padding-challenge {
     max-width: 600px;
     margin: 0 auto;
-  }
-  
-  .one {
+}
+
+.one {
     background: pink;
     border: 3px solid blue;
     /* CHANGE ME */
     padding: 30px;
     margin: 10px;
-  }
-  
-  .two {
+}
+
+.two {
     background: lightblue;
     border: 3px solid purple;
     /* CHANGE ME */
     margin-bottom: 30px;
-  }
-  
-  .three {
+}
+
+.three {
     background: peachpuff;
     border: 3px solid brown;
     width: 200px;
@@ -92,29 +104,55 @@
     padding: 30px;
     /* margin-left: 335px; */
     margin-left: auto;
-  }
+}
 
-  /* Margin and Padding #2 */
+/* Margin and Padding #2 */
 .card {
     background-color: white;
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 1%;
     margin-bottom: 1%;
-    padding: 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1px 8px;
+    font-family: fantasy;
 }
+
+.card h2,
+.card p,
+.card .card-btn {
+    background-color: lightblue;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
 .card-head {
-    font-weight: bold;
-    
+    font-size: 16px;
+    padding: 8px;
+    background-color: lightblue;
 }
+
 .card-desc {
-    
+    padding: 8px;
+    background-color: lightblue;
 }
+
 .card-btn {
-    padding-left: 33%;
-    padding-right: 33%;
+    text-align: center;
+    padding: 8px;
+    /* background-color: lightblue; */
 }
-.card-head, .card-desc, .card-btn {
-    background-color: lightskyblue;
-} 
+
+.card-btn p{
+    padding: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+button {
+    background-color: azure;
+    padding: 8px 24px;
+}
+
+/* .card-head, .card-desc, .card-btn {
+    background-color: lightblue;
+}  */
